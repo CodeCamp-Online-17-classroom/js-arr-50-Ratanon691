@@ -1,13 +1,12 @@
-# js-lab-135
-### Lab135 Array: ฟังก์ชัน getAverageAge(arr)
-จงสร้างฟังก์ชัน getAverageAge(arr) เพื่อหาอายุเฉลี่ยของ array
+# js-lab-136
+### Lab136 Array: หาคะแนนเฉลี่ย
+จงหาคะแนนเฉลี่ยแบบถ่วงน้ำหนัก
 
 ```JavaScript
-let john = { name: 'John', age: 27 };
-let jo = { name: 'Jo', age: 21 };
-let jin = { name: 'Jin', age: 25 };
-
-let arr = [john,jo,jin];
-
-console.log(getAverageAge(arr)); // (27 + 21 + 25) / 3 = 24.33
+const scores = [
+  { score: 90, subject: 'HTML', weight: 0.2 },
+  { score: 95, subject: 'CSS', weight: 0.3 },
+  { score: 85, subject: 'JavaScript', weight: 0.5 }
+];
+// expected result: 89
 ```
